@@ -1,28 +1,37 @@
 /*----- СПЕЦИФИКАЦИЯ ------*/
-*{
-    outline: 0 !important;
+.fab {
+    font-family: 'fa-brands-400', sans-serif;
 }
-body, ul, li, h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-    padding: 0;
+.fas{
+    font-family: 'fa-solid-900', sans-serif;
 }
-body {
+.far {
+    font-family: 'fa-regular-400', sans-serif;
+}
+/*_____HEADER-SOCIAL_____*/
+.header-social {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 14px 0;
+}
+.social {
+    font-size: 14px;
+    color: #bec2c7;
+}
+.social i {
+    margin-left: 20px;
+}
+.social i:hover {
+    color: #6b7c93;
+}
+.head-tell {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 12px;
+}
+.head-tell__name {
+    color: #303842;
+    margin-right: 12px;
+}
+.head-tell__tell {
+    color: #6b7c93;
 
 }
-ul, li {
-    display: block;
-}
-h1, h2, h3, h4, h5, h6, ul, li, div, section, form, button, span, p, img, a {
-    box-sizing: border-box;
-}
-a, a:hover, a:active, a:focus {
-    text-decoration: none;
-}
-input {
-    border: none;
-    outline: none;
-}
-input:hover, input:focus {
-    outline: none;
-}
-/*---------------------------*/
