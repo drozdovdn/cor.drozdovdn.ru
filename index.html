@@ -21,11 +21,11 @@
     <!-- Яндекс.Вебмастер -->
     <!--<meta name="yandex-verification" content="6b641527ffa2aaae">-->
     <!-- Подключенные файлы -->
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
     <header class="header-block" id="header-block">
@@ -65,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <img id="figure1" src="img/figure_1.png" alt="figure">
+        <img class="animated zoomIn"  id="figure1" src="img/figure_1.png" alt="figure">
         <div class="header" id="header">
             <div class="container">
                 <div class="row justify-content-between">
@@ -94,7 +94,7 @@
                                     <a href="#">Terms</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#">Contact</a>
+                                    <a href="#">Contact Us</a>
                                 </li>
                             </ul>
                         </nav>
@@ -103,44 +103,313 @@
             </div>
         </div>
         <div class="offer" id="offer">
-            <div class="container">
+            <div class="container ">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="offer-title">
+                        <h1 class="offer-title animated zoomIn">
                             We create an alround experience for your Corporate business
                         </h1>
-                        <p class="offer-text">
+                        <p class="offer-text animated zoomIn">
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis penatibus et magnis.
                         </p>
-                        <a href="#" class="offer-button">Explore Now</a>
+                        <a href="#" class=" animated zoomIn offer-button">Explore Now</a>
                     </div>
                 </div>
-                <img id="figure2" src="img/figure_2.png" alt="figure">
-                <img id="figure4" src="img/figure_4.png" alt="figure">
-                <img id="figure5" src="img/figure_5.png" alt="figure">
-                <img id="figure6" src="img/figure_6.png" alt="figure">
-                <img id="figure7" src="img/figure_7.png" alt="figure">
-                <img id="figure8" src="img/figure_8.png" alt="figure">
-                <img id="figure9" src="img/figure_9.png" alt="figure">
-                <img id="figure10" src="img/figure_10.png" alt="figure">
-                <img id="figure11" src="img/figure_11.png" alt="figure">
-                <img id="figure12" src="img/figure_12.png" alt="figure">
-                <img id="figure15" src="img/figure_15.png" alt="figure">
+                <img class="animated zoomIn" id="figure2" src="img/figure_2.png" alt="figure">
+                <img class="animated zoomIn" id="figure4" src="img/figure_4.png" alt="figure">
+                <img class="animated zoomIn" id="figure5" src="img/figure_5.png" alt="figure">
+                <img class="animated zoomIn" id="figure6" src="img/figure_6.png" alt="figure">
+                <img class="animated zoomIn" id="figure7" src="img/figure_7.png" alt="figure">
+                <img class="animated zoomIn" id="figure8" src="img/figure_8.png" alt="figure">
+                <img class="animated zoomIn" id="figure9" src="img/figure_9.png" alt="figure">
+                <img class="animated zoomIn" id="figure10" src="img/figure_10.png" alt="figure">
+                <img class="animated zoomIn" id="figure11" src="img/figure_11.png" alt="figure">
+                <img class="animated zoomIn" id="figure12" src="img/figure_12.png" alt="figure">
+                <img class="animated zoomIn" id="figure15" src="img/figure_15.png" alt="figure">
             </div>
         </div>
     </header>
     <section class="customers" id="customers">
         <div class="container">
             <div class="row">
+                <div class="col-lg-4">
+                    <div class="block-customers">
+                        <h3 class="block-customers__title">
+                            Our Customers
+                        </h3>
+                        <p class="block-customers__text">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="customers-img d-flex justify-content-end">
+                        <img src="img/logotip1.png" alt="Logo Firm" class="customers-img__item">
+                        <img src="img/logotip2.png" alt="Logo Firm" class="customers-img__item">
+                        <img src="img/logotip3.png" alt="Logo Firm" class="customers-img__item">
+                        <img src="img/logotip4.png" alt="Logo Firm" class="customers-img__item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-12">
+                    <div id="services-header" class="services-header block-none">
+                        <h2 class="services-header__title">
+                            Our Services & Special Fields
+                        </h2>
+                        <p class="services-header__text">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+                            et magnis dis parturient montes.
+                        </p>
+                    </div>
+                </div>
+                <img id="services-img" src="img/img1.png" alt="PC" class="services-img block-none">
+                <div class="col-lg-12">
+                    <div id="services-content" class="services-content d-flex justify-content-between flex-wrap block-none">
+                        <div class="services-content__item">
+                            <a class="services-content__icon" href="#">
+                                <i class="fas fa-biking"></i>
+                            </a>
+                            <a class="services-content__title" href="#">
+                                <h4>Discovery & Strategy</h4>
+                            </a>
+                            <p class="services-content__text">
+                                Lorem ipsum dolor ipiscing elit. Aenean commodo ligula eget dolor.
+                            </p>
+                        </div>
+                        <div class="services-content__item">
+                            <a class="services-content__icon" href="#">
+                                <i class="fas fa-lightbulb"></i>
+                            </a>
+                            <a class="services-content__title" href="#">
+                                <h4>Manage Projects</h4>
+                            </a>
+                            <p class="services-content__text">
+                                Lorem ipsum dolor ipiscing elit. Aenean commodo ligula eget dolor.
+                            </p>
+                        </div>
+                        <div class="services-content__item">
+                            <a class="services-content__icon" href="#">
+                                <i class="fas fa-paperclip"></i>
+                            </a>
+                            <a class="services-content__title" href="#">
+                                <h4>Team Statistics</h4>
+                            </a>
+                            <p class="services-content__text">
+                                Lorem ipsum dolor ipiscing elit. Aenean commodo ligula eget dolor.
+                            </p>
+                        </div>
+                        <div class="services-content__item">
+                            <a class="services-content__icon" href="#">
+                                <i class="fas fa-check-square"></i>
+                            </a>
+                            <a class="services-content__title" href="#">
+                                <h4>Unlimted Sharing</h4>
+                            </a>
+                            <p class="services-content__text">
+                                Lorem ipsum dolor ipiscing elit. Aenean commodo ligula eget dolor.
+                            </p>
+                        </div>
+                    </div>
 
                 </div>
             </div>
         </div>
     </section>
+    <section class="info" id="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="info-block">
+                        <div id="info-block__header" class="info-block__header block-none">
+                            <h2 class="info-block__title">
+                                Let’s build great things together
+                            </h2>
+                            <p class="info-block__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                                Aenean massa.Cum sociis natoque penatibus et magnis dis parturient. Lorem ipsum dolor stit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div id="info-content" class="info-content d-flex flex-wrap block-none">
+                        <div class="info-content__item">
+                            <span class="info-content__numbers">
+                                785
+                            </span>
+                            <p class="info-content__text">
+                                Project Completed
+                            </p>
+                        </div>
+                        <div class="info-content__item">
+                            <span class="info-content__numbers">
+                                623
+                            </span>
+                            <p class="info-content__text">
+                                Coffees Consumed
+                            </p>
+                        </div>
+                        <div class="info-content__item">
+                            <span class="info-content__numbers">
+                                519
+                            </span>
+                            <p class="info-content__text">
+                                Happy Customers
+                            </p>
+                        </div>
+                        <div class="info-content__item">
+                            <span class="info-content__numbers">
+                                246
+                            </span>
+                            <p class="info-content__text">
+                                Lines of Codes
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+            <h2 class="contact-title">
+                Contact Us
+            </h2>
+            <p class="contact-text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.
+            </p>
+        <form action="#">
+            <p class="emailaddress">
+                <label for="emailaddress">Eamil Address</label>
+                <input id="emailaddress" type="text" name="email"  >
+            </p>
+            <p class="firstname">
+                <label for="firstname">First Name</label>
+                <input id="firstname" type="text" name="Fname" >
+            </p>
+            <p class="lastname">
+                <label for="lastname">Last Name</label>
+                <input id="lastname" type="text" name="Lname"  >
+            </p>
+            <p class="message">
+                <label for="message">Message</label>
+                <textarea id="message" name="text" cols="30" rows="10"></textarea>
+            </p>
+            <p class="button">
+                <button class="offer-button" data-submit>Send Now</button>
+            </p>
+        </form>
+        <img id="figure17" class="block-none img-form" src="img/figure_17.png" alt="figure">
+        <img id="figure18" class="block-none img-form" src="img/figure_18.png" alt="figure">
+        <img id="figure19" class="block-none img-form" src="img/figure_19.png" alt="figure">
+        <img id="figure20" class="block-none img-form" src="img/figure_20.png" alt="figure">
+        <img id="figure21" class="block-none img-form" src="img/figure_21.png" alt="figure">
+        <img id="figure22" class="block-none img-form" src="img/figure_22.png" alt="figure">
+        <img id="figure23" class="block-none img-form" src="img/figure_23.png" alt="figure">
+        <img id="figure24" class="block-none img-form" src="img/figure_24.png" alt="figure">
+        <img id="figure25" class="block-none img-form" src="img/figure_25.png" alt="figure">
+        <img id="figure26" class="block-none img-form" src="img/figure_26.png" alt="figure">
+        <img id="figure27" class="block-none img-form" src="img/figure_27.png" alt="figure">
+    </section>
+    <div class="block-bg"></div>
     <footer class="footer" id="footer">
         <div class="container">
-
+            <div class="row justify-content-between">
+                <div class="col-lg-4">
+                    <a href="#" class="logo d-flex">
+                        <img src="img/logo.png" alt="logo" class="logo-img">
+                        <span class="logo-text">firefly</span>
+                    </a>
+                    <p class="footer-text">
+                        Just then her head struck against the roof of the hall: in
+                        fact she was now more than nine feet high, and she at once took
+                        up the little golden key and hurried off to the garden door.
+                    </p>
+                    <p class="footer-text-bold">
+                        <span>Privacy Policy</span>
+                        <span>Terms and Conditions</span>
+                    </p>
+                    <span class="copyright">
+                        Copyright © 2016 ThemeXpert
+                    </span>
+                </div>
+                <div class="col-lg-2">
+                    <span class="footer-title">
+                        Categories
+                    </span>
+                    <nav class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="#">Team</a>
+                            </li>
+                            <li>
+                                <a href="#">Career</a>
+                            </li>
+                            <li>
+                                <a href="#">Contat</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-2">
+                    <span class="footer-title">
+                        Community
+                    </span>
+                    <nav class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Discussions</a>
+                            </li>
+                            <li>
+                                <a href="#">Collections</a>
+                            </li>
+                            <li>
+                                <a href="#">Members</a>
+                            </li>
+                            <li>
+                                <a href="#">Product</a>
+                            </li>
+                            <li>
+                                <a href="#">Help Center</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-2">
+                    <span class="footer-title">
+                        Follow Us
+                    </span>
+                    <div class="footer-social">
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="js/main.js"></script>
